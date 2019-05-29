@@ -1,0 +1,61 @@
+{
+  "_from": "react-native-easy-floating-button",
+  "_id": "react-native-easy-floating-button@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-JxaioIeAP92rdY0hdu5oLE1EEzr5Eh95U2DpNJM+NEDovjKUu7kSUP3MQfjWbcRtLdtCyQGmWRMwEvB4fuSFKw==",
+  "_location": "/react-native-easy-floating-button",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-easy-floating-button",
+    "name": "react-native-easy-floating-button",
+    "escapedName": "react-native-easy-floating-button",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-easy-floating-button/-/react-native-easy-floating-button-0.0.1.tgz",
+  "_shasum": "e8fa5d6910cd20200cfd34239daeda778ce5e3ec",
+  "_spec": "react-native-easy-floating-button",
+  "_where": "/Users/weitu/Desktop/iron-man",
+  "author": {
+    "name": "tangjie"
+  },
+  "bugs": {
+    "url": "https://github.com/Itangjie/react-native-easy-floating-button/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An react native button component by jsx",
+  "homepage": "https://github.com/Itangjie/react-native-easy-floating-button#readme",
+  "keywords": [
+    "react-native",
+    "react-native-button",
+    "react-native-floating",
+    "react-native-floating-button",
+    "react-native-easy-floating-button",
+    "react-native-menu",
+    "button",
+    "menu",
+    "floating"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-easy-floating-button",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itangjie/react-native-easy-floating-button.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
