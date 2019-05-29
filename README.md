@@ -74,7 +74,7 @@ import {FloatButton} from from 'react-native-easy-floating-button';
 | moveRange | {width : screenW,height : screenH} | `object` | button can move range |
 | title | null | `string` | menu top title |
 | titleStyle |  | `style` | menu top title style |
-| backgroundColor | rgba(0,0,0,0) | ‘string’ | menu container background color |
+| backgroundColor | rgba(0,0,0,0) | `string` | menu container background color |
 | menuWidth | screenW - 60 | `number` | menu default with |
 | menuHeight | screenW - 60 | `number` | menu default height |
 | menuBackgroundColor | rgba(0,0,0,0.9) | `string` | menu background color |
