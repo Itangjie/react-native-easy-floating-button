@@ -93,11 +93,11 @@ import {FloatButton} from from 'react-native-easy-floating-button';
 
 ### Methods
 
-#### show()
+#### static show()
 
-#### dismiss(text, extraTop, bkColor)
+#### static dismiss(text, extraTop, bkColor)
 
-#### addMenuButton(button, index)
+#### static addMenuButton(button, index)
 
 Parameters:
 
@@ -106,7 +106,7 @@ Parameters:
 | button | `object`   | null | botton data | NO |
 | index | `number`   | -1 | button index | YES |
 
-#### removeMenuButton(index)
+#### static removeMenuButton(index)
 
 Parameters:
 
@@ -114,7 +114,7 @@ Parameters:
 | :---- | :------: | :------: | :--- | :--- |
 | index | `number`   |  | button index | YES |
 
-#### replaceMenuButton(buttonArr)
+#### static replaceMenuButton(buttonArr)
 
 Parameters:
 
@@ -122,9 +122,9 @@ Parameters:
 | :---- | :------: | :------: | :--- | :--- |
 | buttonArr | `array`   |  | replace buttons | NO |
 
-#### getMenus()
+#### static getMenus()
 
-#### onClickButton(callback)
+#### static onClickButton(callback)
 
 Parameters:
 
@@ -132,7 +132,7 @@ Parameters:
 | :---- | :------: | :------: | :--- | :--- |
 | callback | `func`   |  | on click button callback | NO |
 
-#### onRemoveButton(callback)
+#### static onRemoveButton(callback)
 
 Parameters:
 
