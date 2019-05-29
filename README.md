@@ -69,8 +69,8 @@ import {FloatButton} from from 'react-native-easy-floating-button';
 | buttonInitializeLeft | 0 | `number` | Initializes the left position of the button |
 | buttonInitializeTop | 0 | `number` | Initializes the top position of the button |
 | buttonSize | 60 | `number` | button size |
-| buttonImage | null | `image` | image style button |
-| buttonView | null | `view` | custom button view ,<View/>|
+| buttonImage | null | `image` | image style button, require('./image.png') or {uri : 'http://'} |
+| buttonView | null | `view` | custom button view ,View componment|
 | moveRange | {width : screenW,height : screenH} | `object` | button can move range |
 | title | null | `string` | menu top title |
 | titleStyle |  | `style` | menu top title style |
