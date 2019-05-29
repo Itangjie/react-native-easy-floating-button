@@ -21,6 +21,7 @@ const CLICK_ACTION_REMOVE= 'remove';
 const CLICK_ACTION_REPLACE = 'replace';
 const CLICK_ACTION_GET= 'get';
 const CLICK_ACTION_FLOATBUTTON= 'floatbutton';
+const CLICK_ACTION_WITHOUTMENU = 'withoutMenu';
 export default class HomeView extends Component {
 
     static navigationOptions = {
@@ -83,8 +84,11 @@ export default class HomeView extends Component {
                 break;
             case CLICK_ACTION_FLOATBUTTON: // FLOATBUTTON
 
-                // 存在bug，正在修复
-                // this.props.navigation.navigate('floatingButton')
+                this.props.navigation.navigate('floatingButton')
+                break;
+            case CLICK_ACTION_WITHOUTMENU: //
+
+                this.props.navigation.navigate('floatingButtonWithoutMenu')
                 break;
         }
     }
@@ -120,6 +124,10 @@ export default class HomeView extends Component {
 
                <TouchableOpacity style={{ height : 60, width:width, justifyContent : 'center', backgroundColor: 'white', marginTop : 10 }} onPress={()=>{this.onClick(CLICK_ACTION_FLOATBUTTON)}}>
                    <Text style={{ color:'black', fontSize : 15,paddingLeft:15 }}>{'FloatButton'}</Text>
+               </TouchableOpacity>
+
+               <TouchableOpacity style={{ height : 60, width:width, justifyContent : 'center', backgroundColor: 'white', marginTop : 10 }} onPress={()=>{this.onClick(CLICK_ACTION_WITHOUTMENU)}}>
+                   <Text style={{ color:'black', fontSize : 15,paddingLeft:15 }}>{'FloatButton(without menu)'}</Text>
                </TouchableOpacity>
 
 
