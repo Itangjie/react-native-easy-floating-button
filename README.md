@@ -4,6 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/react-native-easy-floating-button.svg)](https://npm.im/react-native-easy-floating-button)
 
 ## Preview
+![](https://github.com/Itangjie/react-native-easy-floating-button/blob/master/floating.gif)
 
 ## Getting started
 
