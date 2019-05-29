@@ -55,6 +55,7 @@ import {FloatButton} from from 'react-native-easy-floating-button';
 <FloatButton
     buttonInitializeLeft={0} // 按钮初始化距离left位置
     buttonInitializeTop={400} // 按钮初始化距离top位置
+    menuOffsetY={-50} // 菜单Y轴偏移量，负数往上移动
     menus={menu} // 菜单数组,和GlobalFloatButton一样
     moveRange={{width : 320,height:480}} // 可移动范围,对应父视图的宽高
     onClickButton={(index,data)=>{}} // 点击了某个按钮
@@ -77,11 +78,13 @@ import {FloatButton} from from 'react-native-easy-floating-button';
 | backgroundColor | rgba(0,0,0,0) | `string` | menu container background color |
 | menuWidth | screenW - 60 | `number` | menu default with |
 | menuHeight | screenW - 60 | `number` | menu default height |
+| menuOffsetY | 0 | `number` | menu offsety |
 | menuBackgroundColor | rgba(0,0,0,0.9) | `string` | menu background color |
 | menuButtonImageStyle |  | `style` | menu button image style |
 | menuButtonTextStyle | | `style` | menu button text style |
 | menuButtonDeleteImage | null | `image` |  menu button right top delete image |
 | menus |  | `array` | menu array |
+| withoutMenu | false | `bool` | only floating button,none menu |
 | numberOfRow | 3 | `number` | menu page number of row |
 | numberOfColumn | 3 | `number` | menu page number of column |
 | clickAutoDismiss | true | `bool` | on click menu button, close menu |
